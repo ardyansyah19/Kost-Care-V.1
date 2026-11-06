@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.45 system-ui,sans-serif;background:#f1f5f4;color:#0f172a;padding-bottom:64px}
+header{display:flex;justify-content:space-between;align-items:center;background:#0f766e;color:#fff;padding:12px 16px;position:sticky;top:0;z-index:2}
+header form{display:flex;gap:10px;align-items:center;margin:0}header span{font-size:14px;opacity:.9}
+main{max-width:760px;margin:0 auto;padding:12px 14px}h1{font-size:20px;margin:8px 0 12px}h2{font-size:16px;margin:18px 0 8px}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;overflow-x:auto;background:#fff;border-top:1px solid #cbd5e1;z-index:2}
+nav a{flex:1 0 auto;padding:14px 14px;text-align:center;color:#334155;text-decoration:none;font-size:14px;white-space:nowrap}nav a.on{color:#0f766e;font-weight:700;box-shadow:inset 0 3px #0f766e}
+.card{background:#fff;border-radius:12px;padding:12px 14px;margin:0 0 10px;box-shadow:0 1px 2px #0001}.card p{margin:2px 0}.row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.stat{background:#fff;border-radius:12px;padding:12px}.stat b{display:block;font-size:22px}.stat small{color:#475569}
+label{display:block;font-size:14px;margin:10px 0 4px;color:#334155}input,select,textarea{width:100%;padding:11px;border:1px solid #94a3b8;border-radius:8px;font:inherit;background:#fff}
+button,.btn{display:inline-block;padding:11px 16px;border:0;border-radius:8px;background:#0f766e;color:#fff;font:inherit;text-decoration:none;cursor:pointer;margin-top:10px}
+button.sec{background:#475569}button.bad{background:#b91c1c}button.link{background:none;color:#fff;padding:4px;margin:0;text-decoration:underline}
+.b{font-size:12px;padding:2px 8px;border-radius:99px;background:#e2e8f0;white-space:nowrap}.b.paid,.b.confirmed,.b.resolved,.b.occupied{background:#bbf7d0}
+.b.overdue,.b.rejected,.b.reversed,.b.unpaid{background:#fecaca}.b.pending_review,.b.partially_paid,.b.reserved,.b.in_progress,.b.submitted{background:#fde68a}
+.ok{background:#dcfce7;padding:10px;border-radius:8px}.err{background:#fee2e2;padding:10px;border-radius:8px}.muted{color:#64748b;font-size:14px}a{color:#0f766e}
+.inline{display:flex;gap:6px;flex-wrap:wrap;align-items:end}.inline>*{flex:1 1 120px}
+.lnk{display:block;text-decoration:none;color:inherit}.card p{white-space:pre-line;word-break:break-word}
